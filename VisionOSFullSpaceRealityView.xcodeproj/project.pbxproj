@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A1CB2512B3E91440014DB62 /* toy_biplane_idle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1A1CB2502B3E91440014DB62 /* toy_biplane_idle.usdz */; };
 		1A1E41DF2B3D1877002B5053 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 1A1E41DE2B3D1877002B5053 /* RealityKitContent */; };
 		1A1E41E12B3D1877002B5053 /* VisionOSFullSpaceRealityViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1E41E02B3D1877002B5053 /* VisionOSFullSpaceRealityViewApp.swift */; };
 		1A1E41E32B3D1877002B5053 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1E41E22B3D1877002B5053 /* ContentView.swift */; };
@@ -15,6 +16,8 @@
 		1A1E41E92B3D1878002B5053 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A1E41E82B3D1878002B5053 /* Assets.xcassets */; };
 		1A1E41EC2B3D1878002B5053 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A1E41EB2B3D1878002B5053 /* Preview Assets.xcassets */; };
 		1A1E41F72B3D1878002B5053 /* VisionOSFullSpaceRealityViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1E41F62B3D1878002B5053 /* VisionOSFullSpaceRealityViewTests.swift */; };
+		1A1E42032B3D1D45002B5053 /* EntityShadowComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1E42022B3D1D45002B5053 /* EntityShadowComponents.swift */; };
+		1A1E42052B3D1D9B002B5053 /* cup_saucer_set.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1A1E42042B3D1D9B002B5053 /* cup_saucer_set.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A1CB2502B3E91440014DB62 /* toy_biplane_idle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_biplane_idle.usdz; sourceTree = "<group>"; };
 		1A1E41D92B3D1876002B5053 /* VisionOSFullSpaceRealityView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionOSFullSpaceRealityView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A1E41DD2B3D1877002B5053 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		1A1E41E02B3D1877002B5053 /* VisionOSFullSpaceRealityViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionOSFullSpaceRealityViewApp.swift; sourceTree = "<group>"; };
@@ -39,6 +43,8 @@
 		1A1E41ED2B3D1878002B5053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A1E41F22B3D1878002B5053 /* VisionOSFullSpaceRealityViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisionOSFullSpaceRealityViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A1E41F62B3D1878002B5053 /* VisionOSFullSpaceRealityViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionOSFullSpaceRealityViewTests.swift; sourceTree = "<group>"; };
+		1A1E42022B3D1D45002B5053 /* EntityShadowComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityShadowComponents.swift; sourceTree = "<group>"; };
+		1A1E42042B3D1D9B002B5053 /* cup_saucer_set.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = cup_saucer_set.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,9 @@
 		1A1E41DB2B3D1876002B5053 /* VisionOSFullSpaceRealityView */ = {
 			isa = PBXGroup;
 			children = (
+				1A1CB2502B3E91440014DB62 /* toy_biplane_idle.usdz */,
+				1A1E42042B3D1D9B002B5053 /* cup_saucer_set.usdz */,
+				1A1E42022B3D1D45002B5053 /* EntityShadowComponents.swift */,
 				1A1E41E02B3D1877002B5053 /* VisionOSFullSpaceRealityViewApp.swift */,
 				1A1E41E22B3D1877002B5053 /* ContentView.swift */,
 				1A1E41E42B3D1877002B5053 /* ImmersiveView.swift */,
@@ -202,6 +211,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A1E41E92B3D1878002B5053 /* Assets.xcassets in Resources */,
+				1A1E42052B3D1D9B002B5053 /* cup_saucer_set.usdz in Resources */,
+				1A1CB2512B3E91440014DB62 /* toy_biplane_idle.usdz in Resources */,
 				1A1E41EC2B3D1878002B5053 /* Preview Assets.xcassets in Resources */,
 				1A1E41E72B3D1877002B5053 /* ImageBasedLighting.skybox in Resources */,
 			);
@@ -222,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A1E41E32B3D1877002B5053 /* ContentView.swift in Sources */,
+				1A1E42032B3D1D45002B5053 /* EntityShadowComponents.swift in Sources */,
 				1A1E41E12B3D1877002B5053 /* VisionOSFullSpaceRealityViewApp.swift in Sources */,
 				1A1E41E52B3D1877002B5053 /* ImmersiveView.swift in Sources */,
 			);

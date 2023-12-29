@@ -16,6 +16,6 @@ struct VisionOSFullSpaceRealityViewApp: App {
 
         ImmersiveSpace(id: "ImmersiveSpace") {
             ImmersiveView()
-        }.immersionStyle(selection: .constant(.full), in: .full)
+        }.immersionStyle(selection: .constant(.mixed), in: .mixed)
     }
 }
